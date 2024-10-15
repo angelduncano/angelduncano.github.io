@@ -331,3 +331,19 @@ html{
     cursor: pointer;
     box-shadow: 0 0 10px white;
 }
+.contact-icons {
+    display: flex;                  /* Use flexbox for layout */
+    justify-content: center;        /* Center icons horizontally */
+    align-items: center;            /* Center icons vertically */
+    gap: 50px;                      /* Space between the icons */
+    margin-top: 20px;               /* Space above the icons */
+}
+  
+.contact-icons img {
+    width: 40px;                    /* Size of the icons */
+    height: auto;                   /* Maintain aspect ratio */
+    vertical-align: middle;         /* Align icons vertically */
+    border-radius: 10px;
+}
+
+  
